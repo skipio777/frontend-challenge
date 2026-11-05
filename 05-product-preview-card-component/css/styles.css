@@ -1,0 +1,129 @@
+:root {
+  --white: #ffffff;
+  --black: #1c232b;
+  --grey: #6c7289;
+  --cream: #f2eae2;
+  --green-500: #3d8168;
+  --green-700: #1a4032;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+.product-name,
+.product-price-value {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+}
+
+.product-image {
+  display: block;
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 0px 0px 8px;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.product-tag {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: 0.3125rem;
+}
+.product-name {
+  color: var(--black);
+}
+.product-description {
+  line-height: 1.6;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.product-price-value {
+  color: var(--green-500);
+}
+.product-price-value-original {
+  font-size: 0.8125rem;
+  line-height: 1.2;
+}
+.purchase-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--green-500);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--white);
+  cursor: pointer;
+}
+.purchase-button:hover,
+.purchase-button:focus {
+  background-color: var(--green-700);
+}
+
+@media (max-width: 624px) {
+  body {
+    justify-content: flex-start;
+    padding: 80px 12px;
+  }
+  main {
+    flex-direction: column;
+    max-width: 350px;
+  }
+  article {
+    gap: 24px;
+  }
+  .product-image {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+  }
+}

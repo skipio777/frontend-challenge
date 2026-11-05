@@ -8,3 +8,4 @@
 | 02 | Blog preview card | [code](./02-blog-preview-card) | [live](https://skipio777.github.io/frontend-challenge/02-blog-preview-card/) |
 | 03 | Social links profile | [code](./03-social-links-profile) | [live](https://skipio777.github.io/frontend-challenge/03-social-links-profile/) |
 | 04 | Recipe page | [code](./04-recipe-page) | [live](https://skipio777.github.io/frontend-challenge/04-recipe-page/) |
+| 05 | Product preview card | [code](./05-product-preview-card-component) | [live](https://skipio777.github.io/frontend-challenge/05-product-preview-card-component/) |
