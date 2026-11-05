@@ -1,2 +1,5 @@
 # macOS가 폴더마다 몰래 만드는 설정 파일
 .DS_Store
+
+# Frontend Mentor Figma 디자인 파일 (공유 금지)
+*.fig
