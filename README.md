@@ -9,3 +9,4 @@
 | 03 | Social links profile | [code](./03-social-links-profile) | [live](https://skipio777.github.io/frontend-challenge/03-social-links-profile/) |
 | 04 | Recipe page | [code](./04-recipe-page) | [live](https://skipio777.github.io/frontend-challenge/04-recipe-page/) |
 | 05 | Product preview card | [code](./05-product-preview-card-component) | [live](https://skipio777.github.io/frontend-challenge/05-product-preview-card-component/) |
+| 06 | Four card feature section | [code](./06-four-card-feature-section) | [live](https://skipio777.github.io/frontend-challenge/06-four-card-feature-section/) |
