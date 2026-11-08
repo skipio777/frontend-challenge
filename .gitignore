@@ -3,3 +3,9 @@
 
 # Frontend Mentor Figma 디자인 파일 (공유 금지)
 *.fig
+
+# Frontend Mentor Figma 폴더 (디자인 파일·안내문, 공유 금지)
+figma/
+
+# 개인 학습 로드맵 (공개 안 함)
+/challenge-roadmap.md
