@@ -11,3 +11,4 @@
 | 05 | Product preview card | [code](./05-product-preview-card-component) | [live](https://skipio777.github.io/frontend-challenge/05-product-preview-card-component/) |
 | 06 | Four card feature section | [code](./06-four-card-feature-section) | [live](https://skipio777.github.io/frontend-challenge/06-four-card-feature-section/) |
 | 07 | Results summary component | [code](./07-results-summary-component) | [live](https://skipio777.github.io/frontend-challenge/07-results-summary-component/) |
+| 08 | Stats preview card component | [code](./08-stats-preview-card-component) | [live](https://skipio777.github.io/frontend-challenge/08-stats-preview-card-component/) |
